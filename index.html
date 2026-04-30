@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppy - Tu Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">🛍️ Shoppy</div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#ofertas">Ofertas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="cart-icon" onclick="toggleCart()">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count" id="cartCount">0</span>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>🎉 ¡Ofertas de Temporada!</h1>
+        <p>Hasta 50% de descuento en productos seleccionados</p>
+        <button class="btn-primary" onclick="scrollToProducts()">Ver Productos</button>
+    </section>
+
+    <!-- FILTROS -->
+    <section class="filters" id="productos">
+        <button class="filter-btn active" onclick="filterProducts('todos')">Todos</button>
+        <button class="filter-btn" onclick="filterProducts('ropa')">👕 Ropa</button>
+        <button class="filter-btn" onclick="filterProducts('electronica')">📱 Electrónica</button>
+        <button class="filter-btn" onclick="filterProducts('hogar')">🏠 Hogar</button>
+        <button class="filter-btn" onclick="filterProducts('belleza')">💄 Belleza</button>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="products-grid" id="productsGrid">
+        <!-- Los productos se cargan con JavaScript -->
+    </section>
+
+    <!-- CARRITO LATERAL -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>🛒 Tu Carrito</h3>
+            <button class="close-cart" onclick="toggleCart()">✕</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">Tu carrito está vacío</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">Total: $<span id="cartTotal">0.00</span></div>
+            <button class="btn-checkout" onclick="checkout()">Finalizar Compra</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay" onclick="toggleCart()"></div>
+
+    <!-- FOOTER -->
+    <footer id="contacto">
+        <div class="footer-content">
+            <div>
+                <h4>Shoppy</h4>
+                <p>Tu tienda online de confianza</p>
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <p>📧 hola@shoppy.com</p>
+                <p>📱 +52 123 456 7890</p>
+            </div>
+            <div>
+                <h4>Redes</h4>
+                <p><i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i class="fab fa-whatsapp"></i></p>
+            </div>
+        </div>
+        <p class="copyright">© 2026 Shoppy. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- NOTIFICACIÓN -->
+    <div class="notification" id="notification"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
