@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYR Oportunidades - Tienda Online</title>
+    <meta name="description" content="DYR Oportunidades: moda, accesorios, hogar, regalos y productos seleccionados.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class="logo" href="#" aria-label="DYR Oportunidades">
+            <span class="logo-mark"><span>DYR</span></span>
+            <span class="logo-text">
+                <strong>DYR</strong>
+                <small>Oportunidades</small>
+            </span>
+        </a>
+
+        <nav aria-label="Navegacion principal">
+            <a href="#">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button class="cart-icon" type="button" onclick="toggleCart()" aria-label="Abrir carrito">
+            <i class="fas fa-bag-shopping"></i>
+            <span class="cart-count" id="cartCount">0</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="category-grid" id="categorias" aria-label="Categorias">
+            <button class="category-card active" type="button" data-category="todos" onclick="filterProducts('todos', this)">
+                <i class="fas fa-border-all"></i>
+                <span>Todos</span>
+            </button>
+            <button class="category-card" type="button" data-category="moda" onclick="filterProducts('moda', this)">
+                <i class="fas fa-shirt"></i>
+                <span>Moda</span>
+            </button>
+            <button class="category-card" type="button" data-category="accesorios" onclick="filterProducts('accesorios', this)">
+                <i class="fas fa-gem"></i>
+                <span>Accesorios</span>
+            </button>
+            <button class="category-card" type="button" data-category="hogar" onclick="filterProducts('hogar', this)">
+                <i class="fas fa-house-chimney"></i>
+                <span>Hogar</span>
+            </button>
+            <button class="category-card" type="button" data-category="regalos" onclick="filterProducts('regalos', this)">
+                <i class="fas fa-gift"></i>
+                <span>Regalos</span>
+            </button>
+            <button class="category-card" type="button" data-category="oportunidades" onclick="filterProducts('oportunidades', this)">
+                <i class="fas fa-bolt"></i>
+                <span>Oportunidades</span>
+            </button>
+        </section>
+
+        <section class="products-section" id="productos">
+            <div class="products-grid" id="productsGrid">
+                <!-- Los productos se cargan con JavaScript -->
+            </div>
+
+            <div class="products-actions">
+                <button class="btn-secondary" id="loadMoreBtn" type="button" onclick="loadMoreProducts()">
+                    Ver más productos
+                </button>
+            </div>
+        </section>
+
+        <section class="communication-band" aria-label="Informacion de compra">
+            <div>
+                <i class="fas fa-comments"></i>
+                <strong>Compra por WhatsApp</strong>
+            </div>
+            <div>
+                <i class="fas fa-hand-holding-heart"></i>
+                <strong>Atencion personalizada</strong>
+            </div>
+            <div>
+                <i class="fas fa-truck-fast"></i>
+                <strong>Entregas coordinadas</strong>
+            </div>
+        </section>
+    </main>
+
+    <aside class="cart-sidebar" id="cartSidebar" aria-label="Carrito de compras">
+        <div class="cart-header">
+            <h3><i class="fas fa-bag-shopping"></i> Tu carrito</h3>
+            <button class="close-cart" type="button" onclick="toggleCart()" aria-label="Cerrar carrito">
+                <i class="fas fa-xmark"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">Tu carrito esta vacio.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">Total: $<span id="cartTotal">0.00</span></div>
+            <button class="btn-whatsapp" type="button" onclick="sendCartToWhatsApp()">
+                <i class="fab fa-whatsapp"></i> Enviar carrito por WhatsApp
+            </button>
+            <button class="btn-checkout" type="button" onclick="checkout()">Vaciar carrito</button>
+        </div>
+    </aside>
+    <div class="cart-overlay" id="cartOverlay" onclick="toggleCart()"></div>
+
+    <button class="floating-whatsapp" type="button" onclick="openWhatsAppChat()" aria-label="Consultar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </button>
+
+    <footer id="contacto">
+        <div class="footer-content">
+            <div>
+                <h4>DYR Oportunidades</h4>
+                <p>Productos seleccionados para regalar, usar y disfrutar.</p>
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <p><i class="fas fa-envelope"></i> dyropor@gmail.com</p>
+                <p><i class="fab fa-whatsapp"></i> +54 9 11 53489425</p>
+                <p><i class="fab fa-instagram"></i> @dyropor.10</p>
+            </div>
+            <div>
+                <h4>Compra simple</h4>
+                <p>Elegis, agregas al carrito y consultás stock por WhatsApp.</p>
+            </div>
+        </div>
+        <p class="copyright">© 2026 DYR Oportunidades. Todos los derechos reservados.</p>
+    </footer>
+
+    <div class="notification" id="notification" role="status"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

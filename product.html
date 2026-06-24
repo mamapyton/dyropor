@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto | DYR Oportunidades</title>
+    <meta name="description" content="Ficha de producto de DYR Oportunidades.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html" aria-label="DYR Oportunidades">
+            <span class="logo-mark"><span>DYR</span></span>
+            <span class="logo-text">
+                <strong>DYR</strong>
+                <small>Oportunidades</small>
+            </span>
+        </a>
+
+        <nav aria-label="Navegacion principal">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button class="cart-icon" type="button" onclick="toggleCart()" aria-label="Abrir carrito">
+            <i class="fas fa-bag-shopping"></i>
+            <span class="cart-count" id="cartCount">0</span>
+        </button>
+    </header>
+
+    <main class="product-page" id="productPage">
+        <p class="empty-products">Cargando producto...</p>
+    </main>
+
+    <aside class="cart-sidebar" id="cartSidebar" aria-label="Carrito de compras">
+        <div class="cart-header">
+            <h3><i class="fas fa-bag-shopping"></i> Tu carrito</h3>
+            <button class="close-cart" type="button" onclick="toggleCart()" aria-label="Cerrar carrito">
+                <i class="fas fa-xmark"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">Tu carrito esta vacio.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">Total: $<span id="cartTotal">0.00</span></div>
+            <button class="btn-whatsapp" type="button" onclick="sendCartToWhatsApp()">
+                <i class="fab fa-whatsapp"></i> Enviar carrito por WhatsApp
+            </button>
+            <button class="btn-checkout" type="button" onclick="checkout()">Vaciar carrito</button>
+        </div>
+    </aside>
+    <div class="cart-overlay" id="cartOverlay" onclick="toggleCart()"></div>
+
+    <footer id="contacto">
+        <div class="footer-content">
+            <div>
+                <h4>DYR Oportunidades</h4>
+                <p>Tienda online de productos seleccionados.</p>
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <p><i class="fas fa-envelope"></i> dyropor@gmail.com</p>
+                <p><i class="fab fa-whatsapp"></i> +54 9 11 53489425</p>
+                <p><i class="fab fa-instagram"></i> @dyropor.10</p>
+            </div>
+            <div>
+                <h4>Compra simple</h4>
+                <p>Elegis, consultás stock y coordinamos por WhatsApp.</p>
+            </div>
+        </div>
+        <p class="copyright">© 2026 DYR Oportunidades. Todos los derechos reservados.</p>
+    </footer>
+
+    <div class="notification" id="notification" role="status"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

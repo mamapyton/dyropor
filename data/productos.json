@@ -1,0 +1,554 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pashmina soft beige",
+    "precio": 8900,
+    "precioAnterior": 11900,
+    "categoria": "Moda",
+    "descripcionCorta": "Pashmina suave color beige.",
+    "descripcionLarga": "Pashmina suave color beige.",
+    "imagenPrincipal": "assets/img/productos/pashmina-soft-beige.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/pashmina-soft-beige-02.jpg",
+      "assets/img/productos/pashmina-soft-beige-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": true,
+    "stock": 15,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-person-dress",
+    "imagenAlt": "Pashmina femenina color beige"
+  },
+  {
+    "id": 2,
+    "nombre": "Cartera bandolera negra",
+    "precio": 18500,
+    "precioAnterior": 23900,
+    "categoria": "Accesorios",
+    "descripcionCorta": "Cartera practica y combinable para uso diario.",
+    "descripcionLarga": "Cartera practica y combinable para uso diario.",
+    "imagenPrincipal": "assets/img/productos/cartera-bandolera-negra.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/cartera-bandolera-negra-02.jpg",
+      "assets/img/productos/cartera-bandolera-negra-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": true,
+    "stock": 8,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-bag-shopping",
+    "imagenAlt": "Cartera bandolera negra"
+  },
+  {
+    "id": 3,
+    "nombre": "Aros dorados minimal",
+    "precio": 5200,
+    "precioAnterior": 6900,
+    "categoria": "Accesorios",
+    "descripcionCorta": "Aros dorados delicados para combinar con distintos looks.",
+    "descripcionLarga": "Aros dorados delicados para combinar con distintos looks.",
+    "imagenPrincipal": "assets/img/productos/aros-dorados-minimal.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/aros-dorados-minimal-02.jpg",
+      "assets/img/productos/aros-dorados-minimal-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 20,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-gem",
+    "imagenAlt": "Aros dorados delicados"
+  },
+  {
+    "id": 4,
+    "nombre": "Set spa para regalar",
+    "precio": 12900,
+    "precioAnterior": 16500,
+    "categoria": "Regalos",
+    "descripcionCorta": "Set de cuidado personal ideal para regalar.",
+    "descripcionLarga": "Set de cuidado personal ideal para regalar.",
+    "imagenPrincipal": "assets/img/productos/set-spa-para-regalar.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/set-spa-para-regalar-02.jpg",
+      "assets/img/productos/set-spa-para-regalar-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": true,
+    "stock": 12,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-spa",
+    "imagenAlt": "Set de spa y cuidado personal"
+  },
+  {
+    "id": 5,
+    "nombre": "Vela aromatica premium",
+    "precio": 6800,
+    "precioAnterior": 8900,
+    "categoria": "Hogar",
+    "descripcionCorta": "Vela aromatica con presentacion cuidada.",
+    "descripcionLarga": "Vela aromatica con presentacion cuidada.",
+    "imagenPrincipal": "assets/img/productos/vela-aromatica-premium.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/vela-aromatica-premium-02.jpg",
+      "assets/img/productos/vela-aromatica-premium-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 18,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-fire-flame-simple",
+    "imagenAlt": "Vela aromatica decorativa"
+  },
+  {
+    "id": 6,
+    "nombre": "Organizador de maquillaje",
+    "precio": 9800,
+    "precioAnterior": 13200,
+    "categoria": "Hogar",
+    "descripcionCorta": "Organizador para maquillaje, cremas y accesorios.",
+    "descripcionLarga": "Organizador para maquillaje, cremas y accesorios.",
+    "imagenPrincipal": "assets/img/productos/organizador-de-maquillaje.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/organizador-de-maquillaje-02.jpg",
+      "assets/img/productos/organizador-de-maquillaje-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 10,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-box-open",
+    "imagenAlt": "Organizador con cosmeticos"
+  },
+  {
+    "id": 7,
+    "nombre": "Billetera compacta",
+    "precio": 7200,
+    "precioAnterior": 10900,
+    "categoria": "Oportunidades",
+    "descripcionCorta": "Billetera compacta, linda y funcional.",
+    "descripcionLarga": "Billetera compacta, linda y funcional.",
+    "imagenPrincipal": "assets/img/productos/billetera-compacta.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/billetera-compacta-02.jpg",
+      "assets/img/productos/billetera-compacta-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": true,
+    "stock": 14,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-wallet",
+    "imagenAlt": "Billetera femenina compacta"
+  },
+  {
+    "id": 8,
+    "nombre": "Kimono liviano estampado",
+    "precio": 14900,
+    "precioAnterior": 18900,
+    "categoria": "Moda",
+    "descripcionCorta": "Kimono fresco y versatil para media estacion.",
+    "descripcionLarga": "Kimono fresco y versatil para media estacion.",
+    "imagenPrincipal": "assets/img/productos/kimono-liviano-estampado.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/kimono-liviano-estampado-02.jpg",
+      "assets/img/productos/kimono-liviano-estampado-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 7,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-shirt",
+    "imagenAlt": "Kimono femenino estampado"
+  },
+  {
+    "id": 9,
+    "nombre": "Neceser estampado",
+    "precio": 7900,
+    "precioAnterior": 9900,
+    "categoria": "Regalos",
+    "descripcionCorta": "Neceser practico para cartera, viaje o baño.",
+    "descripcionLarga": "Neceser practico para cartera, viaje o baño.",
+    "imagenPrincipal": "assets/img/productos/neceser-estampado.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/neceser-estampado-02.jpg",
+      "assets/img/productos/neceser-estampado-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 16,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-suitcase",
+    "imagenAlt": "Neceser femenino para cosmeticos"
+  },
+  {
+    "id": 10,
+    "nombre": "Manta decorativa",
+    "precio": 15500,
+    "precioAnterior": 19800,
+    "categoria": "Hogar",
+    "descripcionCorta": "Manta suave para sumar calidez al hogar.",
+    "descripcionLarga": "Manta suave para sumar calidez al hogar.",
+    "imagenPrincipal": "assets/img/productos/manta-decorativa.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/manta-decorativa-02.jpg",
+      "assets/img/productos/manta-decorativa-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": true,
+    "stock": 9,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-house",
+    "imagenAlt": "Manta decorativa para el hogar"
+  },
+  {
+    "id": 11,
+    "nombre": "Pulsera dorada ajustable",
+    "precio": 6100,
+    "precioAnterior": 8500,
+    "categoria": "Accesorios",
+    "descripcionCorta": "Pulsera dorada delicada y ajustable.",
+    "descripcionLarga": "Pulsera dorada delicada y ajustable.",
+    "imagenPrincipal": "assets/img/productos/pulsera-dorada-ajustable.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/pulsera-dorada-ajustable-02.jpg",
+      "assets/img/productos/pulsera-dorada-ajustable-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 22,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-gem",
+    "imagenAlt": "Pulsera dorada ajustable"
+  },
+  {
+    "id": 12,
+    "nombre": "Combo regalo express",
+    "precio": 11500,
+    "precioAnterior": 15800,
+    "categoria": "Oportunidades",
+    "descripcionCorta": "Combo listo para resolver un regalo rapido.",
+    "descripcionLarga": "Combo listo para resolver un regalo rapido.",
+    "imagenPrincipal": "assets/img/productos/combo-regalo-express.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/combo-regalo-express-02.jpg",
+      "assets/img/productos/combo-regalo-express-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": true,
+    "stock": 11,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-gift",
+    "imagenAlt": "Caja de regalo elegante"
+  },
+  {
+    "id": 13,
+    "nombre": "Portavelas decorativo",
+    "precio": 7900,
+    "precioAnterior": 10500,
+    "categoria": "Hogar",
+    "descripcionCorta": "Portavelas elegante para decorar ambientes.",
+    "descripcionLarga": "Portavelas elegante para decorar ambientes.",
+    "imagenPrincipal": "assets/img/productos/portavelas-decorativo.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/portavelas-decorativo-02.jpg",
+      "assets/img/productos/portavelas-decorativo-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 13,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-house",
+    "imagenAlt": "Portavelas decorativo"
+  },
+  {
+    "id": 14,
+    "nombre": "Neceser premium",
+    "precio": 8900,
+    "precioAnterior": 11900,
+    "categoria": "Accesorios",
+    "descripcionCorta": "Neceser ideal para viajes y uso diario.",
+    "descripcionLarga": "Neceser ideal para viajes y uso diario.",
+    "imagenPrincipal": "assets/img/productos/neceser-premium.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/neceser-premium-02.jpg",
+      "assets/img/productos/neceser-premium-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 10,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-bag-shopping",
+    "imagenAlt": "Neceser premium"
+  },
+  {
+    "id": 15,
+    "nombre": "Set spa relax",
+    "precio": 12900,
+    "precioAnterior": 16900,
+    "categoria": "Regalos",
+    "descripcionCorta": "Set pensado para regalar bienestar.",
+    "descripcionLarga": "Set pensado para regalar bienestar.",
+    "imagenPrincipal": "assets/img/productos/set-spa-relax.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/set-spa-relax-02.jpg",
+      "assets/img/productos/set-spa-relax-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": true,
+    "stock": 8,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-gift",
+    "imagenAlt": "Set spa relax"
+  },
+  {
+    "id": 16,
+    "nombre": "Cuadro decorativo",
+    "precio": 9900,
+    "precioAnterior": 13500,
+    "categoria": "Hogar",
+    "descripcionCorta": "Cuadro moderno para distintos ambientes.",
+    "descripcionLarga": "Cuadro moderno para distintos ambientes.",
+    "imagenPrincipal": "assets/img/productos/cuadro-decorativo.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/cuadro-decorativo-02.jpg",
+      "assets/img/productos/cuadro-decorativo-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 6,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-house",
+    "imagenAlt": "Cuadro decorativo"
+  },
+  {
+    "id": 17,
+    "nombre": "Bolso urbano",
+    "precio": 15900,
+    "precioAnterior": 19900,
+    "categoria": "Moda",
+    "descripcionCorta": "Bolso practico, comodo y moderno.",
+    "descripcionLarga": "Bolso practico, comodo y moderno.",
+    "imagenPrincipal": "assets/img/productos/bolso-urbano.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/bolso-urbano-02.jpg",
+      "assets/img/productos/bolso-urbano-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 9,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-bag-shopping",
+    "imagenAlt": "Bolso urbano"
+  },
+  {
+    "id": 18,
+    "nombre": "Caja sorpresa",
+    "precio": 13900,
+    "precioAnterior": 18900,
+    "categoria": "Oportunidades",
+    "descripcionCorta": "Caja con productos elegidos para sorprender.",
+    "descripcionLarga": "Caja con productos elegidos para sorprender.",
+    "imagenPrincipal": "assets/img/productos/caja-sorpresa.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/caja-sorpresa-02.jpg",
+      "assets/img/productos/caja-sorpresa-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": true,
+    "stock": 5,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-gift",
+    "imagenAlt": "Caja sorpresa"
+  },
+  {
+    "id": 19,
+    "nombre": "Reloj decorativo",
+    "precio": 11900,
+    "precioAnterior": 15900,
+    "categoria": "Hogar",
+    "descripcionCorta": "Reloj decorativo para living, oficina o dormitorio.",
+    "descripcionLarga": "Reloj decorativo para living, oficina o dormitorio.",
+    "imagenPrincipal": "assets/img/productos/reloj-decorativo.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/reloj-decorativo-02.jpg",
+      "assets/img/productos/reloj-decorativo-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 7,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-clock",
+    "imagenAlt": "Reloj decorativo"
+  },
+  {
+    "id": 20,
+    "nombre": "Bandeja organizadora",
+    "precio": 8900,
+    "precioAnterior": 11900,
+    "categoria": "Hogar",
+    "descripcionCorta": "Bandeja ideal para mantener espacios ordenados.",
+    "descripcionLarga": "Bandeja ideal para mantener espacios ordenados.",
+    "imagenPrincipal": "assets/img/productos/bandeja-organizadora.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/bandeja-organizadora-02.jpg",
+      "assets/img/productos/bandeja-organizadora-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 12,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-box-open",
+    "imagenAlt": "Bandeja organizadora"
+  },
+  {
+    "id": 21,
+    "nombre": "Difusor aromático",
+    "precio": 14500,
+    "precioAnterior": 18900,
+    "categoria": "Hogar",
+    "descripcionCorta": "Difusor con aromas suaves para el hogar.",
+    "descripcionLarga": "Difusor con aromas suaves para el hogar.",
+    "imagenPrincipal": "assets/img/productos/difusor-aromatico.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/difusor-aromatico-02.jpg",
+      "assets/img/productos/difusor-aromatico-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": true,
+    "stock": 10,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-spa",
+    "imagenAlt": "Difusor aromático"
+  },
+  {
+    "id": 22,
+    "nombre": "Set de velas premium",
+    "precio": 9900,
+    "precioAnterior": 12900,
+    "categoria": "Regalos",
+    "descripcionCorta": "Set de velas con presentacion delicada.",
+    "descripcionLarga": "Set de velas con presentacion delicada.",
+    "imagenPrincipal": "assets/img/productos/set-de-velas-premium.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/set-de-velas-premium-02.jpg",
+      "assets/img/productos/set-de-velas-premium-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 15,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-fire",
+    "imagenAlt": "Set de velas premium"
+  },
+  {
+    "id": 23,
+    "nombre": "Cuadro minimalista",
+    "precio": 12900,
+    "precioAnterior": 16900,
+    "categoria": "Hogar",
+    "descripcionCorta": "Cuadro minimalista para decorar ambientes modernos.",
+    "descripcionLarga": "Cuadro minimalista para decorar ambientes modernos.",
+    "imagenPrincipal": "assets/img/productos/cuadro-minimalista.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/cuadro-minimalista-02.jpg",
+      "assets/img/productos/cuadro-minimalista-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": false,
+    "stock": 6,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-image",
+    "imagenAlt": "Cuadro minimalista"
+  },
+  {
+    "id": 24,
+    "nombre": "Caja regalo deluxe",
+    "precio": 16900,
+    "precioAnterior": 21900,
+    "categoria": "Oportunidades",
+    "descripcionCorta": "Caja regalo especial para sorprender.",
+    "descripcionLarga": "Caja regalo especial para sorprender.",
+    "imagenPrincipal": "assets/img/productos/caja-regalo-deluxe.jpg",
+    "imagenesSecundarias": [
+      "assets/img/productos/caja-regalo-deluxe-02.jpg",
+      "assets/img/productos/caja-regalo-deluxe-03.jpg"
+    ],
+    "mostrarEnMuro": true,
+    "destacado": true,
+    "stock": 4,
+    "variantes": {
+      "talles": [],
+      "colores": []
+    },
+    "icono": "fa-solid fa-gift",
+    "imagenAlt": "Caja regalo deluxe"
+  }
+]
